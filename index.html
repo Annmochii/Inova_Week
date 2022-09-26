@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anna Maria Lima da Silva</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Inova Week</title>
+    <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
-    <nav>
+        <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#dias">DIAS</a></li>
@@ -20,37 +20,56 @@
             </ul>
         </nav>
         <header>
-            <img id="logo" src="imgs\logo_inova-1.png" alt="Inova Week">
-            <h2>minha experiência</h2>
-            <img id="play" src="imgs\img_404212.png" alt="play buttom">
+            <img id="logo" src="./imgs/inova_logo.png" alt="Inova Week">
+            <h2 id="subtitulo">MINHA EXPERIÊNCIA</h2>
+            <a href="#dias"><img id="play" src="imgs\img_404212.png" alt="play buttom"></a>
         </header>
         <div class="foco">
-            <div class="inovacao">
-                <img>
-                <h2>Inovação</h2>
+            <div class="icone">
+                <img class="foco" src="./imgs/icons8-inovação-100.png" alt="Inovação">
+                <h2 class="foco">INOVAÇÃO</h2>
             </div>
-            <div class="criatividade">
-                <img>
-                <h2>Criatividade</h2>
+            <div class="icone">
+                <img class="foco" src="./imgs/icons8-criatividade-100.png" alt="Criatividade">
+                <h2 class="foco">CRIATIVIDADE</h2>
             </div>
-            <div class="empreendedorismo">
-                <img>
-                <h2>Empreendedorismo</h2>
+            <div class="icone">
+                <img class="foco" src="./imgs/icons8-péssima-ideia-100.png" alt="Empreendedorismo">
+                <h2 class="foco">EMPREENDEDORISMO</h2>
             </div>
-        </div>
-        <div class="info">
-            <h3 id="data">19 a 22 de setembro</h3>
-            <h3 id="local">UVV Campus Boa Vista</h3>
         </div>
     </div>
+    <div class="info">
+        <h3 id="data">19 a 22 de setembro</h3>
+        <h3 id="local">UVV Campus Boa Vista</h3>
+    </div>
     <main>
-        <section>
+        <section id="dias">
             <h1>Dias</h1>
-            <div class="primeiro dia">
-                <h2>Primeiro dia</h2>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit ab corporis voluptate numquam! Saepe optio ex laboriosam obcaecati iure totam, incidunt, fugit dolorum cupiditate rem voluptatum dolores earum atque.
+            <div id="carrossel">
+                <img class="arrow" id="arrowleft" src="./imgs/arrow-right-icon.png" alt="setaesquerda">
+                <div class="dias">
+                    <div class="dia">
+                        <h2>Primeiro dia</h2>
+                        <p id="primeiro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit ab corporis voluptate numquam! Saepe optio ex laboriosam obcaecati iure totam, incidunt, fugit dolorum cupiditate rem voluptatum dolores earum atque.</p>
+                    </div>
+                    <div class="imgdia"></div>
+                </div>
+                <img class="arrow" id="arrowright" src="./imgs/arrow-right-icon.png" alt="setadireita">
+            </div>
+        </section>
+        <section id="galeria">
+            <h1>Galeria</h1>
+            <div class="fotos">
                 <img>
-                </h3>
+                <img>
+                <img>
+                <img>
+                <img>
+                <img>
+                <img>
+                <img>
+                <img>
             </div>
         </section>
     </main>
