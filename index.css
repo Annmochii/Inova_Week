@@ -173,13 +173,102 @@ img.arrow:hover{
 }
 /* galeria */
 section#galeria{
-    padding-top: 50px;
     background-color: var(--primaria);
     padding-inline: 15%;
+    padding-top: 7vh;
+    padding-bottom: 11vh;
 }
 section#galeria h1{
     font-family: Thicker;
     color: var(--terciaria);
     text-transform: uppercase;
     font-size:50px;
+    padding-bottom: 35px;
+}
+div.fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 7vw;
+    grid-gap: 3%;
+}
+div.imggaleria{
+    width: 17vw;
+    height: 17vw;
+    background-color: gray;
+    margin: 2px;
+}
+footer{
+    display:flex;
+    background-color: var(--secundaria);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternaria);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 5px 10px 5px;
+}
+footer h3 a{
+    color: var(--quaternaria);
+    font-weight: 500;
+}
+footer h3 a:hover{
+    color: var(--terciaria);
+}
+/* fotos */
+div#imgga{
+    background-image: url("./imgs/galeria/Untitled-1.png");
+    background-size: 17vw;
+    background-position: 50%;
+}
+div#imggb{
+    background-image: url("./imgs/galeria/IMG-20220919-WA0105.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+div#imggc{
+    background-image: url("./imgs/galeria/20220920_092959.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+div#imggd{
+    background-image: url("./imgs/galeria/IMG-20220919-WA0109.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+div#imgge{
+    background-image: url("./imgs/galeria/Untitled-2.png");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+div#imggf{
+    background-image: url("./imgs/galeria/IMG-20220922-WA0007.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+div#imggg{
+    background-image: url("./imgs/galeria/20220920_094154.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+div#imggh{
+    background-image: url("./imgs/galeria/IMG-20220922-WA0010.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+div#imggi{
+    background-image: url("./imgs/galeria/IMG-20220922-WA0012.jpg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
 }
