@@ -13,6 +13,7 @@
     --terciaria: #e82dd6;
     --quaternaria: #f7f85e;
     --destaquea: #52cbf6;
+    --texto: #37373b;
 }
 body{
     background-color: var(--primaria);
@@ -184,6 +185,7 @@ article{
 }
 div.dia h2{
     margin-bottom: 30px;
+    color: var(--texto);
 }
 div.dia h4{
     font-family: 'Montserrat', sans-serif;
@@ -191,12 +193,14 @@ div.dia h4{
     font-size: 16px;
     padding-bottom: 7px;
     padding-top: 10px;
+    color: var(--texto);
 }
 div.dia p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: justify;
+    color: var(--texto);
 }
 /* galeria */
 section#galeria{
